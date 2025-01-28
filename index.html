@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="Header">
+      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <!-- <img src="/Asset/Main/Fair logo.png" class="h-8" alt="Fairmandu logo" /> -->
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Fairmandu</span
+            >
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+          <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Fair Prices</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Discover Places</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Tips & Scams</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="topsection">
+      <h1>Fair Price of Goods and Services in Nepal</h1>
+      <p>
+        Stay informed about the reasonable prices of essential goods and
+        services in Nepal.
+      </p>
+    </div>
+    <div class="container">
+      <div class="latestbox">
+        <h2>Lastest Price changes</h2>
+        <div class="tablebox">
+          <div class="topictexts">
+            <span>Item/Service</span>
+            <span>Category</span>
+            <span>Average Price(NPR)</span>
+            <span>Details</span>
+            <hr/>
+          </div>
+          <div class="subtopictexts">
+            <div class="sub">
+                <div class="header">
+              <p>Street Food (Momo, Samosa)</p></div>
+              <div class="details">
+                <div class="text">
+              <span>Food</span></div>
+              <div class="text">
+              <span>100-200</span></div>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+          </div>
+          <div class="subtopictexts">
+            <div class="sub">
+                <div class="header">
+              <p>Local Bus(Within city)</p></div>
+              <div class="details">
+                <div class="text">
+              <span>Transport</span></div>
+              <div class="text">
+              <span>20-50</span></div>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+            </div>
+            <hr>
+          </div>
+          <div class="subtopictexts">
+            <div class="sub">
+                <div class="header">
+              <p>National Park Entry Fee(varies by park)</p></div>
+              <div class="details">
+                <div class="text">
+              <span>Utilities</span></div>
+              <div class="text">
+              <span>3,000</span></div>
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+            </div>
+            
+          </div>
+      </div>
+    </div>
+    <div class="textsection">
+        <div class="textpart">
+           <h1>How to be safe from price frauds </h1>
+        <p>To stay safe from price fraud in Nepal, start by researching and comparing prices from multiple shops or online stores to understand the standard rates for goods and services. Check government-mandated rates for regulated items like petroleum or public transportation. Utilize technology such as price-tracking apps and join social media groups where consumers share updates and warnings about fraudulent practices. Always ask for itemized bills or receipts to verify charges and have proof of payment. Additionally, familiarize yourself with your consumer rights and report any instances of overcharging to the Department of Commerce, Supplies, and Consumer Protection.</p>
+    </div>
+    </div>
+
+
+
+    
+        
+        <div class="explanationbox">
+            <h1>1. Transportation
+            </h1>
+            <p>Taxis: Drivers often do not use meters and charge exorbitant flat rates, especially at tourist hubs like Thamel or near the airport.
+                Rickshaws: Prices are often inflated for tourists, especially in Durbar Marg, Thamel, or Patan.
+                Tourist Buses: Prices for transportation to popular destinations like Pokhara or Chitwan may include unnecessary "fees."
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>2. Accommodations
+            </h1>
+            <p>Hotels or guesthouses near tourist hubs often inflate room rates for foreigners.
+                "Hidden charges" like service fees or additional taxes are sometimes added unexpectedly.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>3. Restaurants and Cafés
+            </h1>
+            <p>Restaurants in tourist-heavy areas like Thamel or Patan Durbar Square may charge higher prices than local eateries.
+                Items like bottled water or imported drinks can be marked up significantly.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>4. Souvenirs and Handicrafts
+            </h1>
+            <p>Shops selling pashminas, singing bowls, or other handicrafts often quote much higher prices to tourists compared to locals.
+                Bargaining is expected but can still leave tourists paying more than locals would.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>5. Guided Tours and Activities
+            </h1>
+            <p>Trekking agencies, cultural tours, and adventure activities (e.g., paragliding or mountain flights) often have inflated prices for tourists.
+                Additional fees for "permits" or "taxes" may sometimes be charged unfairly.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>6. Entry Fees
+            </h1>
+            <p>Many cultural sites, like Swayambhunath or Bhaktapur Durbar Square, have separate, significantly higher entrance fees for foreigners.
+                Tourists might also encounter unofficial guides demanding extra fees.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>7. Shopping (Clothes, Spices, and Electronics)
+            </h1>
+            <p>Items sold in local markets or small stores (like Asan Bazaar) are often priced higher for tourists unless they bargain.
+                Street vendors, particularly around Durbar Square and tourist areas, quote prices far above the item's actual value.
+                </p>
+        </div>
+        <div class="explanationbox">
+            <h1>8. Adventure and Trekking Equipment
+
+            </h1>
+            <p>Renting or buying trekking gear can come with inflated costs near tourist hubs or trekking starting points.
+                Tips for Avoiding Overpricing:
+                Use apps like Pathao or Taxis on Call for fair transport pricing.
+                Ask locals for price ranges before making purchases.
+                Avoid buying from vendors or shops near major tourist attractions.
+                Bargain respectfully but firmly, as haggling is expected in most markets.
+                Research online platforms offering pre-quoted pricing for services or items.
+                </p>
+        </div>
+        <div class="goodlist">
+          <h1>Price of goods and services available
+          </h1>
+          <div class="tablebox">
+            <div class="topictexts">
+              <span>Item/Service</span>
+              <span>Category</span>
+              <span>Average Price(NPR)</span>
+              <span>Details</span>
+              <hr color="white" >
+            </div>
+            <div class="subtopictexts">
+              <!-- Budget Guesthouse -->
+              <div class="sub">
+                  <div class="header">
+                      <p>Budget Guesthouse</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Accommodation</span>
+                      </div>
+                      <div class="text">
+                          <span>800–1,500</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+            </div>
+              <!-- Mid-range Hotel -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Mid-range Hotel</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Accommodation</span>
+                      </div>
+                      <div class="text">
+                          <span>2,500–5,000</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <!-- Luxury Hotel/Resort -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Luxury Hotel/Resort</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Accommodation</span>
+                      </div>
+                      <div class="text">
+                          <span>10,000+</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <!-- Traditional Nepali Meal (Dal Bhat) -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Traditional Nepali Meal (Dal Bhat)</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Food</span>
+                      </div>
+                      <div class="text">
+                          <span>300–500</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <!-- Street Food (Momo, Samosa) -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Street Food (Momo, Samosa)</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Food</span>
+                      </div>
+                      <div class="text">
+                          <span>100–200</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <!-- Western Meal at a Café -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Western Meal at a Café</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Food</span>
+                      </div>
+                      <div class="text">
+                          <span>600–1,200</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <!-- Coffee -->
+              <div class="subtopictexts">
+              <div class="sub">
+                  <div class="header">
+                      <p>Coffee</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Food</span>
+                      </div>
+                      <div class="text">
+                          <span>200–400</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+              </div>
+              <div class="subtopictexts">
+              <!-- Local Beer -->
+              <div class="sub">
+                  <div class="header">
+                      <p>Local Beer</p>
+                  </div>
+                  <div class="details">
+                      <div class="text">
+                          <span>Food</span>
+                      </div>
+                      <div class="text">
+                          <span>300–500</span>
+                      </div>
+                      <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  </div>
+              </div>
+              <hr color="white">
+          </div>
+          <div class="subtopictexts">
+    <!-- Budget Guesthouse -->
+    <div class="sub">
+        <div class="header">
+            <p>Budget Guesthouse</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Accommodation</span>
+            </div>
+            <div class="text">
+                <span>800–1,500</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Mid-range Hotel -->
+    <div class="sub">
+        <div class="header">
+            <p>Mid-range Hotel</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Accommodation</span>
+            </div>
+            <div class="text">
+                <span>2,500–5,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Luxury Hotel/Resort -->
+    <div class="sub">
+        <div class="header">
+            <p>Luxury Hotel/Resort</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Accommodation</span>
+            </div>
+            <div class="text">
+                <span>10,000+</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Traditional Nepali Meal (Dal Bhat) -->
+    <div class="sub">
+        <div class="header">
+            <p>Traditional Nepali Meal (Dal Bhat)</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Food</span>
+            </div>
+            <div class="text">
+                <span>300–500</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Street Food (Momo, Samosa) -->
+    <div class="sub">
+        <div class="header">
+            <p>Street Food (Momo, Samosa)</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Food</span>
+            </div>
+            <div class="text">
+                <span>100–200</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Western Meal at a Café -->
+    <div class="sub">
+        <div class="header">
+            <p>Western Meal at a Café</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Food</span>
+            </div>
+            <div class="text">
+                <span>600–1,200</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Coffee -->
+    <div class="sub">
+        <div class="header">
+            <p>Coffee</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Food</span>
+            </div>
+            <div class="text">
+                <span>200–400</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Local Beer -->
+    <div class="sub">
+        <div class="header">
+            <p>Local Beer</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Food</span>
+            </div>
+            <div class="text">
+                <span>300–500</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Trekking Permit (TIMS) -->
+    <div class="sub">
+        <div class="header">
+            <p>Trekking Permit (TIMS)</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>2,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- National Park Entry Fee -->
+    <div class="sub">
+        <div class="header">
+            <p>National Park Entry Fee</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>3,000+</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Mount Everest Flight Tour -->
+    <div class="sub">
+        <div class="header">
+            <p>Mount Everest Flight Tour</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>15,000–25,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Guided City Tour -->
+    <div class="sub">
+        <div class="header">
+            <p>Guided City Tour</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>3,000–6,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Paragliding (Pokhara) -->
+    <div class="sub">
+        <div class="header">
+            <p>Paragliding (Pokhara)</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>8,000–12,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    <hr color="white">
+</div>
+
+<div class="subtopictexts">
+    <!-- Rafting -->
+    <div class="sub">
+        <div class="header">
+            <p>Rafting</p>
+        </div>
+        <div class="details">
+            <div class="text">
+                <span>Tourism </span>
+            </div>
+            <div class="text">
+                <span>4,000–6,000</span>
+            </div>
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+        </div>
+    </div>
+    
+</div>
+
+        
+        </div>
+        <div style="height: 500px;" class="container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+  </body>
+</html>
